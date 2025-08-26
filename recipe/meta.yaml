@@ -1,5 +1,5 @@
 {% set name = "igorwriter" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/igorwriter-{{ version }}.tar.gz
-  sha256: 8df17b7e880a4129d4958423402d65ef39f3102c1af8a43ba42602b83dfb7e22
+  sha256: 757ae8e0156ccbf616a1ac21fce1b7d69fb44ae820068c45ef6b355c3dc4e993
 
 build:
   noarch: python
